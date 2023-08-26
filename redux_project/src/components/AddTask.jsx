@@ -25,7 +25,7 @@ const AddTask = () => {
   return (
     <>
     
-    <section className="  container w-50 bg-dark text-white rounded">
+    <section className=" container w-50  rounded">
     <div className="mb-3">
   <label  className="form-label">Task Title</label>
   <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Task Title" value = {title} onChange={(e)=>setTitle(e.target.value)}/>
